@@ -1,6 +1,11 @@
-package com.edu.yog.boot.jdbc.dao;
+package com.edu.yog.boot.jdbc.model;
 
 public class EmployeeHealthInsurance {
+
+	private String empId;
+	private String healthInsuranceSchemeName;
+	private int coverageAmount;
+
 	public String getEmpId() {
 		return empId;
 	}
@@ -24,9 +29,5 @@ public class EmployeeHealthInsurance {
 	public void setCoverageAmount(int coverageAmount) {
 		this.coverageAmount = coverageAmount;
 	}
-
-	private String empId;
-	private String healthInsuranceSchemeName;
-	private int coverageAmount;
 
 }
