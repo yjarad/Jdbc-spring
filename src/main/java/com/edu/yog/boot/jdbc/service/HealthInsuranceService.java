@@ -1,6 +1,6 @@
 package com.edu.yog.boot.jdbc.service;
 
-import com.edu.yog.boot.jdbc.dao.EmployeeHealthInsurance;
+import com.edu.yog.boot.jdbc.model.EmployeeHealthInsurance;
 
 public interface HealthInsuranceService {
 	void registerEmployeeHealthInsurance(EmployeeHealthInsurance employeeHealthInsurance);

@@ -1,6 +1,6 @@
-package com.edu.yog.boot.jdbc.model;
+package com.edu.yog.boot.jdbc.dao;
 
-import com.edu.yog.boot.jdbc.dao.EmployeeHealthInsurance;
+import com.edu.yog.boot.jdbc.model.EmployeeHealthInsurance;
 
 public interface HealthInsuranceDao {
 	void registerEmployeeHealthInsurance(EmployeeHealthInsurance employeeHealthInsurance);
